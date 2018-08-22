@@ -36,7 +36,6 @@ check_sys(){
 		release="centos"
     fi
 }
-# 本段获取最新版本的代码来源自: https://teddysun.com/489.html
 Set_latest_new_version(){
 	echo -e "请输入 要下载安装的Linux内核版本(BBR) ${Green_font_prefix}[ 格式: x.xx.xx ，例如: 4.9.96 ]${Font_color_suffix}
 ${Tip} 内核版本列表请去这里获取：${Green_font_prefix}[ http://kernel.ubuntu.com/~kernel-ppa/mainline/ ]${Font_color_suffix}
